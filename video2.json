@@ -182,5 +182,37 @@
     "group": "normal",
     "enabled": true,
     "priority": 10
+  },
+  {
+    "id": "suoni",
+    "name": "🎬索尼资源",
+    "baseUrl": "https://suoniapi.com/api.php/provide/vod/",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "tianya",
+    "name": "🎬天涯资源",
+    "baseUrl": "http://tyyszy.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "wencai",
+    "name": "🎬文才资源",
+    "baseUrl": "https://api.zeqaht.com/api.php/provide/vod/",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "jianan",
+    "name": "🎬建安影视",
+    "baseUrl": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
   }
 ]
