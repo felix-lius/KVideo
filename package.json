@@ -8,6 +8,8 @@
     "start": "node scripts/next-with-lan-access.mjs start",
     "lint": "eslint",
     "test": "tsx --test tests/**/*.test.ts",
+    "fongmi:generate": "tsx scripts/generate-fongmi-config.ts",
+    "fongmi:check": "tsx scripts/generate-fongmi-config.ts --check",
     "pages:build": "next-on-pages && node scripts/transpile-client-assets.mjs .vercel/output/static/_next/static"
   },
   "dependencies": {

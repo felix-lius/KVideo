@@ -1,7 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 
 import { convertToFongMiConfig, getSubscriptionUrls } from '../lib/server/fongmi-config';
+
+test('checked-in FongMi config matches video2.json', () => {
+  const sources = JSON.parse(readFileSync(new URL('../video2.json', import.meta.url), 'utf8'));
+  const config = JSON.parse(readFileSync(new URL('../fongmi.json', import.meta.url), 'utf8'));
+  assert.deepEqual(config, convertToFongMiConfig([sources]));
+});
 
 test('reads the URL forms accepted by KVideo subscriptions', () => {
   assert.deepEqual(getSubscriptionUrls('https://example.com/video2.json'), ['https://example.com/video2.json']);
