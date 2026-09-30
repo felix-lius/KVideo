@@ -1,5 +1,14 @@
 [
   {
+    "id": "catalog_summary",
+    "name": "视频源统计：总计26条，启用20条，停用6条",
+    "baseUrl": "https://example.invalid/summary",
+    "group": "normal",
+    "enabled": false,
+    "priority": 0,
+    "note": "仅作清单说明，不计入统计；增删或启停真实视频源时请同步更新"
+  },
+  {
     "id": "liangzi",
     "name": "🎬量子资源",
     "baseUrl": "https://cj.lzcaiji.com/api.php/provide/vod",
@@ -13,7 +22,7 @@
     "baseUrl": "https://360zyzz.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 1
+    "priority": 2
   },
   {
     "id": "jisu",
@@ -21,7 +30,7 @@
     "baseUrl": "https://jszyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 1
+    "priority": 3
   },
   {
     "id": "iqiyi",
@@ -29,7 +38,7 @@
     "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 4
   },
   {
     "id": "ikun",
@@ -45,7 +54,7 @@
     "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 6
   },
   {
     "id": "maoyan",
@@ -53,7 +62,7 @@
     "baseUrl": "https://api.maoyanapi.top/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 7
   },
   {
     "id": "modu",
@@ -61,7 +70,7 @@
     "baseUrl": "https://www.mdzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 8
   },
   {
     "id": "baofeng",
@@ -69,7 +78,7 @@
     "baseUrl": "https://bfzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 9
   },
   {
     "id": "zuida",
@@ -77,7 +86,7 @@
     "baseUrl": "https://api.zuidapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 10
   },
   {
     "id": "wujin",
@@ -85,7 +94,7 @@
     "baseUrl": "https://api.wujinapi.me/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 5,
+    "priority": 11,
     "note": "测试时接口返回 403，暂时停用；保留地址供日后复查"
   },
   {
@@ -94,7 +103,7 @@
     "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5,
+    "priority": 12,
     "note": "与速播资源片库高度重合；抽查3部影片播放地址相同，保留启用供分别测试"
   },
   {
@@ -103,7 +112,7 @@
     "baseUrl": "https://subocaiji.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5,
+    "priority": 13,
     "note": "与新浪资源片库高度重合；抽查3部影片播放地址相同，保留启用供分别测试"
   },
   {
@@ -112,7 +121,7 @@
     "baseUrl": "https://api.ukuapi88.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 14
   },
   {
     "id": "guangsu",
@@ -120,7 +129,7 @@
     "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 15
   },
   {
     "id": "hongniu",
@@ -128,7 +137,7 @@
     "baseUrl": "https://www.hongniuzy2.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 16
   },
   {
     "id": "hhzy",
@@ -136,7 +145,7 @@
     "baseUrl": "https://hhzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 17
   },
   {
     "id": "feifan",
@@ -144,7 +153,7 @@
     "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 10
+    "priority": 18
   },
   {
     "id": "jinying",
@@ -152,7 +161,7 @@
     "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 10
+    "priority": 19
   },
   {
     "id": "modudm",
@@ -160,7 +169,7 @@
     "baseUrl": "https://caiji.moduapi.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 10,
+    "priority": 20,
     "note": "与 modu 的测试搜索结果、影片 ID 和播放地址相同；保留作备用接口"
   },
   {
@@ -169,7 +178,7 @@
     "baseUrl": "https://cj.rycjapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 10
+    "priority": 21
   },
   {
     "id": "bdzy",
@@ -177,7 +186,7 @@
     "baseUrl": "https://api.apibdzy.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 10
+    "priority": 22
   },
   {
     "id": "suoni",
@@ -185,7 +194,7 @@
     "baseUrl": "https://suoniapi.com/api.php/provide/vod/",
     "group": "normal",
     "enabled": false,
-    "priority": 10,
+    "priority": 23,
     "note": "测试时接口提示不支持搜索，暂时停用"
   },
   {
@@ -194,7 +203,7 @@
     "baseUrl": "http://tyyszy.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 10,
+    "priority": 24,
     "note": "测试时接口提示不支持搜索，暂时停用"
   },
   {
@@ -203,7 +212,7 @@
     "baseUrl": "https://api.zeqaht.com/api.php/provide/vod/",
     "group": "normal",
     "enabled": false,
-    "priority": 10,
+    "priority": 25,
     "note": "测试时搜索和详情可用，但播放域名在当前网络解析失败"
   },
   {
@@ -212,7 +221,7 @@
     "baseUrl": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 10,
+    "priority": 26,
     "note": "测试时返回网页地址而非可直连的视频地址，暂时停用"
   }
 ]
