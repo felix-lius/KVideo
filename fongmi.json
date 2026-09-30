@@ -163,15 +163,6 @@
       "changeable": 1
     },
     {
-      "key": "modudm",
-      "name": "🎬魔都动漫",
-      "type": 1,
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "ryzy",
       "name": "🎬如意资源",
       "type": 1,
