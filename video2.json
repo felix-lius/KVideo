@@ -180,14 +180,6 @@
     "priority": 10
   },
   {
-    "id": "aidan",
-    "name": "🎬艾旦影视",
-    "baseUrl": "https://lovedan.net/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
     "id": "suoni",
     "name": "🎬索尼资源",
     "baseUrl": "https://suoniapi.com/api.php/provide/vod/",

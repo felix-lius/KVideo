@@ -134,5 +134,13 @@
     "group": "premium",
     "enabled": true,
     "priority": 1
+  },
+  {
+    "id": "aidan",
+    "name": "🎬艾旦影视",
+    "baseUrl": "https://lovedan.net/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
   }
 ]
