@@ -76,8 +76,9 @@
     "name": "🎬成人23",
     "baseUrl": "https://kkzy.me/api.php/provide/vod/",
     "group": "premium",
-    "enabled": true,
-    "priority": 10
+    "enabled": false,
+    "priority": 10,
+    "note": "线上搜索连测三次均 0 条结果；本机代理路径只取回一张网页而非接口数据；暂时停用，保留地址供日后复查"
   },
   {
     "id": "ad24",
@@ -124,8 +125,9 @@
     "name": "🎬越南资源",
     "baseUrl": "https://vnzyz.com/api.php/provide/vod/",
     "group": "premium",
-    "enabled": true,
-    "priority": 16
+    "enabled": false,
+    "priority": 16,
+    "note": "线上搜索连测三次均 0 条结果；本机直连与代理均超时；暂时停用，保留地址供日后复查"
   },
   {
     "id": "lebo",
