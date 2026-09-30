@@ -94,7 +94,8 @@
     "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 5,
+    "note": "与速播资源片库高度重合；抽查3部影片播放地址相同，保留启用供分别测试"
   },
   {
     "id": "subo",
@@ -102,7 +103,8 @@
     "baseUrl": "https://subocaiji.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 5,
+    "note": "与新浪资源片库高度重合；抽查3部影片播放地址相同，保留启用供分别测试"
   },
   {
     "id": "uku",
